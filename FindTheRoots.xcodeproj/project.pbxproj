@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		B9FE84BD29803A080003923F /* FindTheRootsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE84BC29803A080003923F /* FindTheRootsApp.swift */; };
-		B9FE84BF29803A080003923F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE84BE29803A080003923F /* ContentView.swift */; };
 		B9FE84C129803A0B0003923F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9FE84C029803A0B0003923F /* Assets.xcassets */; };
 		B9FE84C429803A0B0003923F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9FE84C329803A0B0003923F /* Preview Assets.xcassets */; };
+		B9FE84CC29803A560003923F /* RootsCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE84CB29803A560003923F /* RootsCalculatorView.swift */; };
+		B9FE84CE2980486A0003923F /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE84CD2980486A0003923F /* Result.swift */; };
+		B9FE84D12980AFD40003923F /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE84D02980AFD40003923F /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B9FE84B929803A080003923F /* FindTheRoots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindTheRoots.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9FE84BC29803A080003923F /* FindTheRootsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheRootsApp.swift; sourceTree = "<group>"; };
-		B9FE84BE29803A080003923F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B9FE84C029803A0B0003923F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9FE84C329803A0B0003923F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9FE84CB29803A560003923F /* RootsCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootsCalculatorView.swift; sourceTree = "<group>"; };
+		B9FE84CD2980486A0003923F /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		B9FE84D02980AFD40003923F /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				B9FE84BC29803A080003923F /* FindTheRootsApp.swift */,
-				B9FE84BE29803A080003923F /* ContentView.swift */,
+				B9FE84CF2980486E0003923F /* Model */,
+				B9FE84CA29803A400003923F /* Views */,
 				B9FE84C029803A0B0003923F /* Assets.xcassets */,
 				B9FE84C229803A0B0003923F /* Preview Content */,
 			);
@@ -65,6 +70,23 @@
 				B9FE84C329803A0B0003923F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B9FE84CA29803A400003923F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B9FE84CB29803A560003923F /* RootsCalculatorView.swift */,
+				B9FE84D02980AFD40003923F /* ResultView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B9FE84CF2980486E0003923F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B9FE84CD2980486A0003923F /* Result.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9FE84BF29803A080003923F /* ContentView.swift in Sources */,
+				B9FE84CE2980486A0003923F /* Result.swift in Sources */,
+				B9FE84D12980AFD40003923F /* ResultView.swift in Sources */,
+				B9FE84CC29803A560003923F /* RootsCalculatorView.swift in Sources */,
 				B9FE84BD29803A080003923F /* FindTheRootsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
